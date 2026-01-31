@@ -104,7 +104,7 @@ async def handle_ad_text(message: types.Message, state: FSMContext):
         [InlineKeyboardButton(text="📩 В личку", callback_data="CONTACT_PRIVATE"), InlineKeyboardButton(text="📞 По телефону", callback_data="CONTACT_PHONE")],
         [InlineKeyboardButton(text="⏭️ Пропустить", callback_data="CONTACT_SKIP")]
     ])
-    await message.answer("Как с вами связаться? (можно пропустить)", reply_markup=keyboard)
+    await message.answer("Как с вами связаться?", reply_markup=keyboard)
 
 
 @dp.callback_query(lambda c: c.data in ["CONTACT_PRIVATE", "CONTACT_PHONE", "CONTACT_SKIP"])
@@ -177,9 +177,8 @@ async def publish_ad_with_auto_delete(message: types.Message, user_id: int):
         f"{header}\n\n"
         f"{emoji_item} {ad_text}\n\n"
         f"📞 Контакт: {contact_info}\n\n"
-        f"========================================\n"
+        f"==========\n"
         f"📌 Разместите свое объявление — @{BOT_USERNAME}\n"
-        f"========================================"
     )
 
     try:
