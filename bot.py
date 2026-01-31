@@ -52,7 +52,7 @@ def format_phone(phone_str: str) -> str:
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message, state: FSMContext):
     # Предупреждение о 48 часах
-    warning_msg = "⚠️ Объявления публикуются на 48 часов и затем автоматически удаляются.\n\nВыберите тип объявления:"
+    warning_msg = "⚠️ Объявления публикуются на 48 часов и затем автоматически удаляются.\nОбъявления публикуются в канале - https://t.me/asinoobyav\n\nВыберите тип объявления:"
 
     # Кнопки в 2 ряда
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
