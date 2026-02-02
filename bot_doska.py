@@ -26,8 +26,8 @@ ad_type_map = {
     "MISC": ("🟣 Разное", "📦")
 }
 
-BOT_TOKEN = "8395318503:AAHW53QFGef_chHRoC8T3wAluKV5EaLFX4U"
-CHANNEL_ID = "-1002498080112"
+BOT_TOKEN = "7979907582:AAGsD6DJsYH-NXxoVV4TWPc26F_SG8PLStQ"
+CHANNEL_ID = "-1003533127290"
 BOT_USERNAME = "asinoobyav_bot"  # ← Убедитесь, что это правильное имя
 
 bot = Bot(token=BOT_TOKEN)
