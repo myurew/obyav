@@ -15,8 +15,8 @@ import sqlite3
 import pytz
 
 # === НАСТРОЙКИ ===
-BOT_TOKEN = "7979217461:AAHPcviPaJK5HDDVdTWopEWNzRFkxEg3FWk"
-GROUP_CHAT_ID = -1003765293008  # ID канала @poputchik_asino
+BOT_TOKEN = "TOKEN"
+GROUP_CHAT_ID = ID  # ID канала @poputchik_asino
 
 TZ = pytz.timezone('Asia/Novosibirsk')
 
