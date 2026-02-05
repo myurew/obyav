@@ -27,9 +27,9 @@ ad_type_map = {
 }
 
 # === Настройки ===
-BOT_TOKEN = "7979907582:AAGsD6DJsYH-NXxoVV4TWPc26F_SG8PLStQ"
-CHANNEL_ID = "-1003533127290"
-BOT_USERNAME = "asinoobyav_bot"
+BOT_TOKEN = "TOKEN"
+CHANNEL_ID = "ID"
+BOT_USERNAME = "@_bot"
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
